@@ -72,6 +72,7 @@ ul li span {
 
 .container li.dark{
   color: rgb(61, 61, 61);
+  height: 268px;
   padding: 0px;
   display: flex;
   justify-content: center;
@@ -80,31 +81,34 @@ ul li span {
 
 .container li.dark:hover{
   color: white;
+  height: 268px;
   padding: 0px;
   display: flex;
   justify-content: center;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .container li.white{
   color: white;
+  height: 268px;
   background-color: white;
   padding: 0px;
   display: flex;
   justify-content: center;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .container li.white:hover{
   color: rgb(61, 61, 61);
+  height: 268px;
   padding: 0px;
   display: flex;
   justify-content: center;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .container img{
-  height: 195px;
+  height: 175px;
   display: inline-block ;
   justify-content: center;
   flex-direction: column;
@@ -113,11 +117,10 @@ ul li span {
 }
 
 .container img:hover{
-  height: 195px;
+  height: 205px;
   display: inline-block ;
   justify-content: center;
   flex-direction: column;
   border-radius: 50%;
   opacity: 100%;
-
 }
