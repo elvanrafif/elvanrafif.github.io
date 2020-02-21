@@ -75,7 +75,7 @@ ul li span {
   padding: 0px;
   display: flex;
   justify-content: center;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .container li.dark:hover{
@@ -103,4 +103,21 @@ ul li span {
   flex-direction: column
 }
 
+.container img{
+  height: 195px;
+  display: inline-block ;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  opacity: 0%;
+}
 
+.container img:hover{
+  height: 195px;
+  display: inline-block ;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  opacity: 100%;
+
+}
