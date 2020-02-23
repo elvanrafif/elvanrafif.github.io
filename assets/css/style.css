@@ -117,6 +117,8 @@ ul li span {
 
 .container li img:hover{
   opacity: 100%;
+  width: 300px;
+  height: 300px;
 }
 
 .container h3{
@@ -129,7 +131,7 @@ ul li span {
 }
 
 .video-youtube{
-  margin: 0 0 50px 300px;
+  margin: 0 0 50px 250px;
 }
 
 .socmed{
@@ -167,6 +169,35 @@ input.komentar{
   height: 40px;
   font-size: 20px;
   margin: 20px 390px 20px 390px;
+}
+
+.followme{
+  text-transform: uppercase;
+  margin: 20px 0px 0px 0px;
+  border-top: solid;
+  text-align: center;
+  letter-spacing: 0.2em;"
+}
+
+.followme h3{
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.followme ul{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.followme li{
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.followme img{
+  width: 40px;
+  height: 40px;
 }
 
 footer{
