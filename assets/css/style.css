@@ -122,9 +122,14 @@ ul li span {
 .container h3{
   text-transform: uppercase;
   font-size: 2em;
-  margin: 50px 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
   text-align: center;
   letter-spacing: 0.2em;"
+}
+
+.video-youtube{
+  margin: 0 0 50px 300px;
 }
 
 .socmed{
