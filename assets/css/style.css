@@ -3,7 +3,7 @@ body {
   background:rgb(61, 61, 61);
   margin:0;
   color:white;
-  width: 800px;
+  width: 900px;
   margin: auto;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 
 footer {
-  background:#571212;
+  
 }
 
 ul {
@@ -54,12 +54,12 @@ ul li span {
 .container {
   display:grid;
   background-color: rgb(61, 61, 61);
-  display:grid;
-  list-style-type:none;
-  margin:0;padding: 0;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(3, auto);
-  border-style: dashed;
+  grid-template-columns: 3(repeat auto);
+  grid-template-rows: 3(repeat auto);
+}
+
+.container #content {
+  border-style: solid;
   border-color: rgb(255, 255, 255);
 }
 
@@ -72,7 +72,8 @@ ul li span {
 
 .container li.dark{
   color: rgb(61, 61, 61);
-  height: 268px;
+  height: 300px;
+  width: 300px;
   padding: 0px;
   display: flex;
   justify-content: center;
@@ -81,7 +82,8 @@ ul li span {
 
 .container li.dark:hover{
   color: white;
-  height: 268px;
+  height: 300px;
+  width: 300px;
   padding: 0px;
   display: flex;
   justify-content: center;
@@ -90,7 +92,8 @@ ul li span {
 
 .container li.white{
   color: white;
-  height: 268px;
+  height: 300px;
+  width: 300px;
   background-color: white;
   padding: 0px;
   display: flex;
@@ -100,27 +103,22 @@ ul li span {
 
 .container li.white:hover{
   color: rgb(61, 61, 61);
-  height: 268px;
+  height: 300px;
+  width: 300px;
   padding: 0px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.container img{
-  height: 175px;
-  display: inline-block ;
+.container li img{
+  background-color: rgb(255, 255, 255);
+  display: flex;
   justify-content: center;
   flex-direction: column;
-  border-radius: 50%;
   opacity: 0%;
 }
 
-.container img:hover{
-  height: 205px;
-  display: inline-block ;
-  justify-content: center;
-  flex-direction: column;
-  border-radius: 50%;
+.container li img:hover{
   opacity: 100%;
 }
